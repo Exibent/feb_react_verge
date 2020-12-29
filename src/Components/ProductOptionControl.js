@@ -44,21 +44,6 @@ class ProductOptionControl extends Component {
   * is opened so we can get a better view
   * of the area our control is editing.
   */
-  emitSectionChangeEvent() {
-    // Arguments: Event Name, Event Options
-  	let event = new CustomEvent('move-camera', { detail: this.props.optionName })
-    // Triggers the event on the window object
-  	window.dispatchEvent(event)
-  }
-
-  emitColorChangeEvent(color) {
-  	let event = new CustomEvent('change-color', { detail: {
-  		meshName: this.props.optionName,
-  		color
-  	}})
-  	window.dispatchEvent(event)
-  }
-
   emitAccordionOpenEvent(color) {
     let event = new CustomEvent('accordion-open')
     window.dispatchEvent(event)
@@ -79,11 +64,7 @@ class ProductOptionControl extends Component {
       this.optionBody.style.visibility = 'visible'
       TweenMax.to(this.optionBody, 0.05, {height: this.state.bodyDefaultHeight, ease: Power2.easeOut})
       this.emitAccordionOpenEvent()
-      /*
-      * Call our new method here in the accordion 
-      * event hook
-      */
-      this.emitSectionChangeEvent()
+
   	} else {
       // back to 0 to close 
       TweenMax.to(this.optionBody, 0.05, {height: 0, ease: Power2.easeOut})
@@ -94,13 +75,13 @@ class ProductOptionControl extends Component {
 
   render() {
     return (       
-    	<div className="productoption" >
+    	<div className="productoption" id={this.props.optionName}>
           {/*
           *  The accordion header, this is always visible. We attach a click
           *  event handler to it to handle opening and closing of 
           *  the accordion body
           */}
-	        <button onClick={this.toggleAccordion} className="productoption_header" >
+	        <button onClick={this.toggleAccordion} className="productoption_header">
 	        	{this.props.optionName}
 	        </button> 
           {/*
@@ -111,10 +92,7 @@ class ProductOptionControl extends Component {
 	        <div className="productoption_body" ref={ el => this.optionBody = el} >
              {/* Map over all the possible options and list them out */}
 	        	{this.props.optionValues.map( value => {
-	        		return <button key={value} onClick={(e) => {
-	        			e.preventDefault()
-	        			this.emitColorChangeEvent(value)
-	        		}} className="productoption_btn" >{value}</button>
+	        		return <button key={value} className="productoption_btn" id={`${this.props.optionName}_${value}`}>{value}</button>
 	        	})}
 	        </div>        
         </div>

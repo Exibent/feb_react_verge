@@ -1,0 +1,356 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="351" scrolly="421" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="2955.4202573434377" scrolly="691.506671540338" scale="0.9999999999999991">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="@F%m[7ISD2yxr+CurC^%" x="-2530" y="-150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="text" id=":}m@G?xV^H:Cb$%Q3q@t">
+          <field name="TEXT">Body_Ocher</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="O5){i}d)8wdq[5z5PJpq">
+          <value name="VALUE2">
+            <shadow type="materialList" id="-2yzSy5P7HG{(ypfDrE9">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="O6hn4)$|KDpfjCD9Kt4y">
+              <field name="FIELDNAME">wool_ocher</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="2S1RRj,@`/OpiOQSB7)+">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="/_{+*D#o1c?hI4GcC{0h">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="U~:;2c-J;BIYS;^KCF/2">
+              <field name="TEXT">Body_Light Blue</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="mp`h%,]k;cFB;6Lqr9$$">
+              <value name="VALUE2">
+                <shadow type="materialList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="`+xf7DTBGla==AB595Aj">
+                  <field name="FIELDNAME">wool_light_blue</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="kU@2^+V9Ipi4b!+bpAV2">
+                  <field name="FIELDNAME">body</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Cuffs" type="SecondaryTab" active="false" scrollx="0" scrolly="-5.684341886080802e-14" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="iz(83cN/6uW=.pA*E^8$" x="150" y="330">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="text" id="75c=VVq6C`?`Fr3Gt?uo">
+          <field name="TEXT">Cuffs_Grey</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="B6!*U`yG.#`.+B,T/XR!">
+          <value name="VALUE2">
+            <shadow type="materialList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="yIc,V+?fmOi2hv5aQ^;`">
+              <field name="FIELDNAME">cuffs_grey</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="r=X#,wcbvRo]QfP-E@I`">
+              <field name="FIELDNAME">left_cuff</field>
+            </block>
+          </value>
+          <next>
+            <block type="assignMaterial" id="/Oyhq~@cpT.y)!4qKuJn">
+              <value name="VALUE2">
+                <shadow type="materialList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="[O`/bES%[8uPP_-Dc|~@">
+                  <field name="FIELDNAME">cuffs_grey</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="xgEg[r(eu}XE-]?jq}A}">
+                  <field name="FIELDNAME">right_cuff</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id=";:U9PfSPcZtHXLK0QACF">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="n5:5^@,3CtZv_QZ2M1A_">
+              <field name="TEXT">Cuffs_Red</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="g3}nw`jODk4OQZA,;3qE">
+              <value name="VALUE2">
+                <shadow type="materialList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="%uW2qEjd*lk/(Ednc34Z">
+                  <field name="FIELDNAME">cuffs_red</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="85W5#`edQQ%FbsYyCbog">
+                  <field name="FIELDNAME">left_cuff</field>
+                </block>
+              </value>
+              <next>
+                <block type="assignMaterial" id="%P$6zSk/qXPH3fOZ//3a">
+                  <value name="VALUE2">
+                    <shadow type="materialList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="materialList" id="7JX(#DUi8dDWwpalvGa_">
+                      <field name="FIELDNAME">cuffs_red</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="J./in+08cSPFIY7%dxTq">
+                      <field name="FIELDNAME">right_cuff</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Belt" type="SecondaryTab" active="false" scrollx="1.1368683772161603e-13" scrolly="0" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=".~U8.*:v.a4NfefqqILZ" x="490" y="130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="text" id="G#C}^c0$9*--/TLp3_Km">
+          <field name="TEXT">Belt_Red</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="*g}f4*K~O6O1B=7fPyoJ">
+          <value name="VALUE2">
+            <shadow type="materialList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="m`c?3+IqtspPiO|$G#,B">
+              <field name="FIELDNAME">cuffs_red</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="^WFwZE{;K1A#)AmI8QCM">
+              <field name="FIELDNAME">belt</field>
+            </block>
+          </value>
+          <next>
+            <block type="assignMaterial" id="5g~2]NB=Cv:iq)P*`]Er">
+              <value name="VALUE2">
+                <shadow type="materialList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="IguYFj@`xTSrvw2`a#Y=">
+                  <field name="FIELDNAME">cuffs_red</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="|i7_KCH}Ub`dtp}qltTt">
+                  <field name="FIELDNAME">belt_main</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="5@!;A8Ghf?:A(^xihakQ">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="[E%_7zh.{.~xcs)CpY^K">
+              <field name="TEXT">Belt_Grey</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="Ar_ah]bOnFF.[=MCn-qC">
+              <value name="VALUE2">
+                <shadow type="materialList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="iq.joRli%0-o[j:IT(gU">
+                  <field name="FIELDNAME">cuffs_grey</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id=";.{X^/VTbq~+u11oe?H@">
+                  <field name="FIELDNAME">belt</field>
+                </block>
+              </value>
+              <next>
+                <block type="assignMaterial" id="36=o()SKBs]Y*5$,4rG!">
+                  <value name="VALUE2">
+                    <shadow type="materialList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="materialList" id="v4kf*ZHeviWH#n0_@]W@">
+                      <field name="FIELDNAME">cuffs_grey</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="9$VTWMlFA6j^c)p}3/?R">
+                      <field name="FIELDNAME">belt_main</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Collar" type="SecondaryTab" active="false" scrollx="0" scrolly="0" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="+A@q;/1=A@eXMG=ONsNr" x="230" y="270">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="text" id="/%X5]uYOV[Ow(oZ,lo3#">
+          <field name="TEXT">Collar_Grey</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="]OhD$id@Y:`=*UpQ]hsD">
+          <value name="VALUE2">
+            <shadow type="materialList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="r=-M{?#hfe$:uU:Ri-cn">
+              <field name="FIELDNAME">collar_light_grey</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="|bjw$Wy08{HL!c9hkM5d">
+              <field name="FIELDNAME">collar</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="(UfY8BE3Nsr2{(bZ67%#">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="2zVcJY{*)NJxXS1u@O;1">
+              <field name="TEXT">Collar_Yellow</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="e.=yPGo=sdiw]}F;Ty1t">
+              <value name="VALUE2">
+                <shadow type="materialList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="m~tBi+5wQj[xVN~lrf6}">
+                  <field name="FIELDNAME">collar_yellow</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="^N+y`Ns22h4VbT|Cs$s$">
+                  <field name="FIELDNAME">collar</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="484.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
